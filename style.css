@@ -1,0 +1,177 @@
+/* ------------First Section-------- */
+
+/* -----Fonts----- */
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">);
+/* common styles */
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.first-section
+{
+    background-color: blue;
+}
+.menu{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+.menu a{
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+#menu1{
+    justify-content: flex-end;
+    background-color: crimson;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    margin-right: 90px;
+
+}
+.box1
+{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    
+
+
+}
+.button
+{
+    background-color: crimson;
+    width: 100px;
+    height: 30px;
+    
+    color: white;
+
+}
+.banner img
+{
+    display: flex;
+    width: 556px;
+    height: 443px;
+    justify-content: flex-end;
+    padding-left: 20%;
+}
+/* ----------Second Section
+               -------------------------- */
+    .flexible-container
+    {
+        align-items: flex-start;
+        justify-content: center;
+    padding: 0px;
+    display: flex;
+
+    }
+    .player-list
+    {
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap:15px;
+
+        
+    }
+    .players img{
+        width: 200px;
+        height: 180px;
+
+    }
+    .players
+    {
+        margin: 15px;
+        border: 15px;
+        padding: 20px 30px;
+        box-shadow: 5px 0px 10px gray;
+        justify-content: center;
+        
+    }
+    /* ----------- Third Section----------
+                   /* ----------------------. */
+
+                   
+     .photo-frame
+     {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        border:2px solid gold;
+        background-color:black;
+        color: white;
+        position: relative;
+        margin: 20px;
+     }
+     .photo img{
+         width: 300px
+         height: 250px;
+         border-radius: 10px;
+
+     }
+     .Neymar-detail{
+         position: absolute;
+         width: 200px;
+         
+         
+     }
+     .photo-album:hover ..Neymar-detail{
+         /* display: block; */
+     }
+     .photo-frame:hover .photo
+     {
+        transform: scale(1.3) rotate(60deg);
+        transition: transform 2s ease-in-out;
+     }
+     .photo-album{
+        display: flex;
+        
+        flex-wrap: wrap;
+        background-color: rgba(red, green, blue, alpha);
+    }  
+         
+
+
+     
+     /* Forth Section */
+.logo img
+{
+ width: 50%;
+
+  
+}
+.icon i{
+
+    text-align: center;
+     border: 1px solid gray;
+     padding: 10px;
+     border-radius: 50%;    
+}
+.copyright
+{
+    position: static;
+    left: 25.61%;
+    right: 25.61%;
+    top: 81.2%;
+    bottom: 5.99%;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.football
+{
+    text-align: center;
+    
+
+}
+
+     
